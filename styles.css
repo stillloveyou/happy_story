@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #333; /* 글자 색상 검정색 */
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  background-color: #fff; /* 배경색 흰색 */
+  border-radius: 5px; /* 모서리 둥글게 */
+  box-shadow: 0 0 5px rgba(0,0,0,0.1); /* 약간의 그림자 추가 */
+}
+
+nav ul li a:hover {
+  background-color: #eee; /* 마우스 오버 시 배경색 밝은 회색 */
+}
+
+main {
+  padding: 2rem;
+}
+
+form {
+  margin: 1rem 0;
+}
+
+form input {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+form button {
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+      flex-direction: column;
+  }
+
+  nav ul li {
+      margin: 0.5rem 0;
+  }
+
+  footer {
+      position: relative;
+  }
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+

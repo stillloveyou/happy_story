@@ -1,0 +1,31 @@
+{
+  "name": "happy_tree",
+  "version": "1.0.0",
+  "main": "scripts.js",
+  "description": "",
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "name": "happytree",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "lite-server"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "lite-server": "^2.6.1"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "firebase": "^10.12.3"
+  }
+}
